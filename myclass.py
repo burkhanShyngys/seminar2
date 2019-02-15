@@ -4,15 +4,15 @@ class Calculator:
 		self.y=y
 		self.c=c
 	def print_ans(self):
-		if self.c=='+':		
-			print(self.x+self.y)
-		elif self.c=='-':
-			print(self.x-self.y)
-		elif self.c=='*':
-			print(self.x*self.y)
-		elif self.c=='/':
-			print(self.x/self.y)
+		if self.y=='+':		
+			print(self.x+self.c)
+		elif self.y=='-':
+			print(self.x-self.c)
+		elif self.y=='*':
+			print(self.x*self.c)
+		elif self.y=='/':
+			print(self.x/self.c)
 	def defaultVal(self):
 		self.x=5
-		self.y=2
-		self.c='+'
+		self.c=2
+		self.y='+'
