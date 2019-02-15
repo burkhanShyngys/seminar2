@@ -11,7 +11,7 @@ class myBox:
 		self._theItems.pop(item)
 	def __contains__(self, item):
 		return item in self._theItems
-	def __iter__(self, item):
+	def __iter__(self):
 		return MyBoxIterator(self._theItems)
 
 
